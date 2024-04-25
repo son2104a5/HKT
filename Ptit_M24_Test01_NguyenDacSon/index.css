@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: rgb(245, 238, 238);
+}
+.full-table {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+/* ------------------ Header ------------------ */
+.header {
+    background-color: rgb(32, 255, 255);
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 130px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header-content{
+    padding: 15px 0 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-content-left{
+    display: flex;
+    gap: 34px;
+}
+
+/* ----------------- Body ------------------ */
+.body {
+    background-color: white;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+.mini-player-container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-body {
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    color: rgb(185, 185, 185);
+    font-size: 24px;
+}
+.icon1{
+    color: rgb(228, 218, 218);
+}
+.icon2{
+    color: aliceblue;
+}
+.right-body {
+    font-size: 24px;
+    padding: 10px 0;
+}
+.score{
+    padding: 30px;
+}
+.score-btn {
+    padding: 10px 17px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.score-btn:first-child{
+    padding: 10px 20px;
+}
+/* --------------- Footer ------------- */
+.footer {
+    background-color: aqua;
+    padding: 10px;
+}
+.input-players {
+    width: 80%;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 99, 138, 0.264);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.add-btn {
+    padding: 5px 13px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
